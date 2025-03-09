@@ -5,14 +5,18 @@ title: Mike Condon
 
 ## About Me
 
-I'm a software engineer with a passion for building reliable, scalable systems. My background includes work in distributed systems, cloud architecture, and developer tooling. I believe in simple, pragmatic solutions to complex problems.
+![Bio Photo](/pictures/bio_photo.jpg){: width="200px" style="float: right; margin-left: 20px;"}
+
+I'm Mike Condon, welcome to my personal site. Here, you can find reports for my projects where I bridge between statistics, applied math, neuroscience and psychology. 
+I am currently studying an MSc at the University of Nottingham and I'm looking for research opportunities. If you are interested, please send me an email at [{{ site.email }}](mailto:{{ site.email }}).
+
 
 ## Projects
 
 <div class="project">
-  <h3><a href="https://github.com/mikecondon/project-1">Project Name 1</a></h3>
-  <div class="project-meta">2024 | Python, FastAPI</div>
-  <p>A description of this project. What problem does it solve? What technologies does it use? What was your role in building it?</p>
+  <h3><a href="https://github.com/mikecondon/project-1">Maze Exploration with Context Trees</a></h3>
+  <div class="project-meta">2025 | Bayesian Statistics, Markov Chains, Python</div>
+  <p>When mice explore a tunnel system, which branch do they take? I use Bayesian Context Trees to uncover their pattern of decisions.</p>
 </div>
 
 <div class="project">

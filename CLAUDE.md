@@ -13,7 +13,7 @@
 
 ## Style Guidelines
 - Use Markdown for content formatting
-- Code snippets should use {% highlight language %} blocks
+- Code snippets should use \{\% highlight language \%\} blocks
 - Follow Jekyll front matter conventions
 - Maintain consistent spacing in YAML files
 
