@@ -1,28 +1,47 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Building a Minimal Personal Website with Jekyll"
 date:   2024-09-24 22:27:08 +0100
-categories: jekyll update
+categories: jekyll web-development
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+As a software developer, having a personal website serves as both a portfolio and a space for technical writing. After considering various options, I settled on using Jekyll with GitHub Pages for its simplicity and focus on content.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Why Jekyll?
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Jekyll provides an excellent balance between customization and simplicity. Its static site generation means:
 
-Jekyll also offers powerful support for code snippets:
+1. Fast loading times with minimal overhead
+2. No database or server-side processing required
+3. Simple deployment through GitHub Pages
+4. Markdown-based content that's easy to write and maintain
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight bash %}
+# Starting a new Jekyll site is as simple as:
+gem install jekyll bundler
+jekyll new my-site
+cd my-site
+bundle exec jekyll serve
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Choosing a Minimal Design
+
+For my personal site, I wanted something reminiscent of [gwern.net](https://gwern.net) - focusing on content with minimal distractions. To achieve this, I modified the default Minima theme with custom CSS that emphasizes:
+
+1. Typography with comfortable line height and font size
+2. Limited color palette (mostly blacks and blues)
+3. Single-column layout that keeps content front and center
+4. Clear section dividers that help organize information
+
+## What's Next
+
+This site will grow to include:
+- Project documentation and case studies
+- Technical writing on software engineering topics
+- Experiments with web technologies
+- Learning notes and research summaries
+
+I invite you to check back as I continue to develop both the site and its content.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
